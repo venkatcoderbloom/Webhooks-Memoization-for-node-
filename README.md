@@ -1,4 +1,4 @@
-# Request-optimization-by-memoization
+# Request-optimization-by-memoization - August 2018
 To prevent multiple update or sync process for a particular id or a same repeated action which happens for a particular period of  time.
 
 Languages - JavaScript,Lodash
