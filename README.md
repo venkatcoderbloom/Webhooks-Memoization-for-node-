@@ -1,9 +1,4 @@
 # Request-optimization-by-memoization - August 2018
-To prevent multiple update or sync process for a particular id or a same repeated action which happens for a particular period of  time.
+Backend engineers are much familiar with the term Webhooks. Webhooks are a way for apps to communicate between them automatically.The main aim of this project is to memoize the webhooks request and minimize the CRUD operation. Certain application can send the same webhooks request multiple number times. It's not an ideal way to let the API process the same webhooks data again and again. The above code memoize's the webhooks request and prevents the API from processing same data. We also have an additional option to customize the memoization time.
 
-Languages - JavaScript,Lodash
-Technique - Memoization.
-
-The above code will reduce the sync process for a particular id which comes and hits us many times.
-
-The above code can be used in scenarios like webhook hits and if the same action is repeated many times.
+Languages: Lodash, Javascript
